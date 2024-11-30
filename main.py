@@ -18,6 +18,7 @@ async def mint_for_all_keys():
             print(f'Минт с ключом {private_key[:6]}... прошел успешно {mint_result}')
         except Exception as e:
             print(f'Ошибка с ключом {private_key[:6]}... {e}')
+            print('test')
 
 
 
